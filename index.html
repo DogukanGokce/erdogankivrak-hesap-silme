@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hesap ve Veri Silme · Erdoğan Kıvrak</title>
+  <meta name="description" content="Erdoğan Kıvrak mobil uygulamasında hesabınızı ve verilerinizi nasıl sildirebileceğinizi açıklar.">
+  <style>
+    :root {
+      --bg: #f6f6f6;
+      --card: #ffffff;
+      --ink: #111111;
+      --muted: #4b5565;
+      --green: #0c4e11;
+      --line: #111111;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #14110f;
+        --card: #1e1a17;
+        --ink: #f3ede6;
+        --muted: #b9afa4;
+        --green: #7fc58a;
+        --line: #f3ede6;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.6;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 32px 16px 56px; }
+    header { margin-bottom: 24px; }
+    h1 { font-size: 28px; line-height: 1.25; margin: 0 0 8px; }
+    h2 { font-size: 20px; margin: 0 0 10px; }
+    p, li { font-size: 16px; }
+    .lead { color: var(--muted); margin: 0; }
+    section {
+      background: var(--card);
+      border: 2px solid var(--line);
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    ol, ul { margin: 8px 0 0; padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    a { color: var(--green); font-weight: 600; }
+    .note { color: var(--muted); font-size: 14px; margin-top: 10px; }
+    footer { color: var(--muted); font-size: 14px; margin-top: 24px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Hesap ve Veri Silme</h1>
+      <p class="lead">Erdoğan Kıvrak mobil uygulamasındaki hesabınızı ve verilerinizi dilediğiniz zaman sildirebilirsiniz.</p>
+    </header>
+
+    <section>
+      <h2>1. Uygulamadan silme (anında)</h2>
+      <ol>
+        <li>Uygulamayı açın ve hesabınıza giriş yapın.</li>
+        <li>Ana ekrandaki <strong>Hesabım</strong> kartına dokunun.</li>
+        <li><strong>Hesabımı sil</strong> düğmesine dokunun ve onaylayın.</li>
+      </ol>
+      <p class="note">İşlem anında yapılır ve geri alınamaz. Hesabınızı Apple ile açtıysanız silmeden önce Apple ile bir kez daha doğrulamanız istenir.</p>
+      <p class="note">Personel ve yönetici hesapları uygulamadan silinemez; bu hesaplar için aşağıdaki e-posta yolunu kullanın.</p>
+    </section>
+
+    <section>
+      <h2>2. E-posta ile silme talebi</h2>
+      <p>Uygulamaya erişemiyorsanız ya da uygulamayı kaldırdıysanız talebinizi e-posta ile iletebilirsiniz:</p>
+      <ol>
+        <li>Uygulamaya kayıt olurken kullandığınız e-posta adresinden
+          <a href="mailto:erdogankivrak-destek@googlegroups.com?subject=Hesap%20silme%20talebi">erdogankivrak-destek@googlegroups.com</a>
+          adresine yazın.</li>
+        <li>Konu satırına <strong>Hesap silme talebi</strong> yazın.</li>
+        <li>Başka bir adresten yazarsanız, hesabın size ait olduğunu doğrulamak için ek bilgi isteyebiliriz.</li>
+      </ol>
+      <p class="note">Talebinizi en geç 30 gün içinde sonuçlandırır ve size e-posta ile bildiririz.</p>
+    </section>
+
+    <section>
+      <h2>Silinen veriler</h2>
+      <ul>
+        <li>Hesap bilgileriniz: ad soyad, e-posta adresi, telefon ve giriş kaydınız (Google ya da Apple ile giriş yaptıysanız bu bağlantı da).</li>
+        <li>Sadakat verileriniz: çekirdek bakiyeniz.</li>
+        <li>Bildirim kayıtlarınız (cihazınıza bildirim göndermek için tutulan bilgi).</li>
+        <li>Arkadaşını davet et kaydınız.</li>
+        <li>Bayi başvurunuz ya da bayi kaydınız hiç sipariş içermiyorsa: firma unvanı, vergi numarası, vergi dairesi, yetkili adı, telefon, adres ve harita konumu da silinir.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Saklanabilen veriler</h2>
+      <ul>
+        <li>Dükkandaki çekirdek hareketleriniz (tarih, dükkan, işlemi yapan personel, miktar) silinmez; adınız ve hesabınızla bağı koparılarak anonim olarak saklanır. Bu kayıtlar yalnızca sadakat programının kötüye kullanımını (ör. aynı kişiye tekrar tekrar okutma) denetlemek için kullanılır ve kimseyle eşleştirilemez.</li>
+        <li>Bayi olarak sipariş verdiyseniz, fatura düzenlemek ve yasal saklama yükümlülüklerimizi yerine getirmek için <strong>geçmiş sipariş kayıtları</strong> ile bayi işletmesinin firma kaydı (vergi numarası, vergi dairesi, adres, telefon) gereken süre boyunca saklanır. Siparişle hesabınız arasındaki bağlantı kaldırılır. Bayi kaydı haritadan kaldırılır, pasife alınır ve artık sipariş veremez.</li>
+        <li>Bayi işletmesinin başka kullanıcıları varsa firma kaydı onlar için korunur, yalnızca sizin hesabınızla bağlantısı kalkar.</li>
+        <li>Bu veriler yasal saklama süresi dolduktan sonra silinir ve yalnızca bu yükümlülükler için kullanılır.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Sorularınız için</h2>
+      <p>Verilerinizle ilgili her türlü soru ve talep için
+        <a href="mailto:erdogankivrak-destek@googlegroups.com">erdogankivrak-destek@googlegroups.com</a>
+        adresine yazabilirsiniz. Kişisel verilerinizin işlenmesine ilişkin ayrıntılar için
+        <a href="https://erdogankivrak.com/pages/sozlesme3">KVKK Aydınlatma Metni ve Gizlilik Politikamıza</a> bakabilirsiniz.</p>
+    </section>
+
+    <footer>Erdoğan Kıvrak · 1959'dan beri Türk kahvesi · erdogankivrak.com</footer>
+  </main>
+</body>
+</html>
